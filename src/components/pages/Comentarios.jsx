@@ -39,7 +39,7 @@ const Comentarios = () => {
         <div className="comentarios-slider">
             {comentarios.map((comentario) => (
                 <div key={comentario.id} className="comentario-item">
-                    <img src={comentario.imagen} alt={comentario.nombre} className="comentario-imagen" />
+                    {/* <img src={comentario.imagen} alt={comentario.nombre} className="comentario-imagen" /> */}
                     <h3 className="comentario-nombre">{comentario.nombre}</h3>
                     <p className="comentario-texto">"{comentario.comentario}"</p>
                 </div>

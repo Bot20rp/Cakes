@@ -2,8 +2,11 @@ import React from 'react'
 import './Principal.css';
 import { Informacion } from '../Informacion/Informacion'
 import Comentarios from './Comentarios';
+import { useNavigate } from 'react-router-dom';
 
 const Principal = () => {
+
+    const navigate = useNavigate();
 
     const cumpleaños = [
         {
@@ -44,13 +47,13 @@ const Principal = () => {
                 <h1>Vanillas y Cakes Marcy</h1>
             </div>
             <div className="div-contenedor">
-                <h2>Descripción sobre precios bajos y productos de calidad</h2>
+                <h2>"En nuestra repostería transformamos tus ideas en deliciosas obras de arte. Ofrecemos diseños personalizados que se adaptan a tus gustos, con precios accesibles y una calidad que sorprende en cada bocado. ¡Hacemos realidad el dulce de tus sueños!" 🍰✨</h2>
             </div>
             <div className="categorias">
                 {cumpleaños.map((cumpleaño) => (
                     <div key={cumpleaño.id} className="categoria-item">
                         <img src={cumpleaño.imagen} alt="cumpleaños" className="categoria-imagen" />
-                        <button className="categoria-boton">{cumpleaño.descripcion}</button>
+                        <button className="categoria-boton" onClick={navigate('/niños')}>{cumpleaño.descripcion}</button>
                     </div>
                 ))}
             </div>

@@ -4,6 +4,8 @@ import Principal from './components/pages/Principal';
 import { Navbar } from './components/Navar/Navbar';
 import "./App.css"
 
+import Ninos from './components/pages/Niños/Ninos';
+
 function App() {
   const [entrada, setEntrada] = useState(true);
   useEffect(() => {
@@ -38,6 +40,7 @@ function Main() {
       <Navbar/>
       <Routes>
       <Route path="/" element={<Principal/>} />
+      <Route path="/niños" element={<Ninos/>} />
       </Routes>
     </div>
   )

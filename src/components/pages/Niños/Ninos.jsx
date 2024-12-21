@@ -16,7 +16,7 @@ const Ninos = () => {
         },
         {
             id: 3,
-            img: '/ninos/n4.jpg',
+            img: '/ninos/n3.jpg',
             descripcion: 'hola'
         },
         {
@@ -54,8 +54,8 @@ const Ninos = () => {
 
   return (
     <div className='ninos'>
-        <div>
-            <h2>Desliza para conocer más</h2>
+        <div className='titulo'>
+            <h1>Desliza para conocer más</h1>
         </div>
       <div className="comentarios-slider2">
                 {ninos.map((nino) => (

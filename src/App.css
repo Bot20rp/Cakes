@@ -1,0 +1,22 @@
+
+.contenedor {
+  display: flex;
+  width: 100%;
+  align-content: center;
+  justify-content: center;
+}
+
+.video-container {
+  display: flex;
+  width: 80%;
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center;    /* Centra verticalmente */
+  height: 100vh;          /* Toma toda la altura de la ventana */
+}
+
+.video {
+  width: 50%;      /* El video ocupará el 60% del ancho de la pantalla */
+  max-height: 70%; /* Limita la altura máxima al 70% de la pantalla */
+  border-radius: 10px; /* Bordes redondeados opcionales */
+}
+

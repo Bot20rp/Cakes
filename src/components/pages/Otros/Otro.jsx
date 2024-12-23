@@ -60,7 +60,7 @@ const Otro = () => {
                 {ninos.map((nino) => (
                     <div key={nino.id} className="comentario-item2">
                         <img src={nino.img} alt="cumpleaños" className="categoria-imagen" />
-                        <h2>{nino.descripcion}</h2>
+                        {/* <h2>{nino.descripcion}</h2> */}
                         <button 
                             className="categoria-boton" 
                             onClick={() => handleWhatsApp(nino.descripcion)}

@@ -7,12 +7,10 @@ export const Informacion = () => {
            <footer>
             <div className='footerr-fila'>
             <div className='footerr-col3'>
-                <h2>Contactanos</h2>
+                <h2>Contáctanos</h2>
                 <ul>
-                    <li>calle chuquisaca Nª121 , Zona challampa</li>
-                    <li>Correo: LicoBunker@gmail.com</li>
-                    <li>telefono : 12345678</li>
-
+                    <li>Para obtener tú propia pagina: 76672191 - wssp</li>
+                    <li>Correo: d.sajor2003rp@gmail.com</li>
                 </ul>
             </div>
 

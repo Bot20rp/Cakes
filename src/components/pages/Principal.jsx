@@ -18,31 +18,31 @@ const Principal = () => {
             id: 2,
             imagen: '/img/c2.jpg',
             descripcion: 'Tortas para 15 años',
-            ruta: '/quinceañeras'
+            ruta: '/quince'
         },
         {
             id: 3,
             imagen: '/img/c3.jpg',
             descripcion: 'Tortas para Matrimonio',
-            ruta: '/matrimonios'
+            ruta: '/matrimonio'
         },
         {
             id: 4,
             imagen: '/img/c4.jpg',
             descripcion: 'Tortas para Graduacion',
-            ruta: '/graduaciones'
+            ruta: '/graduacion'
         },
         {
             id: 5,
             imagen: '/img/c5.jpg',
             descripcion: 'Tortas para Bautizo',
-            ruta: '/bautizos'
+            ruta: '/bautizo'
         },
         {
             id: 6,
             imagen: '/img/c6.jpg',
             descripcion: 'Tortas para Otros',
-            ruta: '/otros'
+            ruta: '/otro'
         },
     ];
 

@@ -5,6 +5,11 @@ import { Navbar } from './components/Navar/Navbar';
 import "./App.css"
 
 import Ninos from './components/pages/Niños/Ninos';
+import Bautizo from './components/pages/Bautizo/Bautizo';
+import Graduacion from './components/pages/Graduacion/Graduacion';
+import Matrimonio from './components/pages/Matrimonio/Matrimonio';
+import Otro from './components/pages/Otros/Otro';
+import Quince from './components/pages/Quince/Quince';
 
 function App() {
   const [entrada, setEntrada] = useState(true);
@@ -41,6 +46,11 @@ function Main() {
       <Routes>
       <Route path="/" element={<Principal/>} />
       <Route path="/niños" element={<Ninos/>} />
+      <Route path="/matrimonio" element={<Matrimonio/>} />
+      <Route path="/graduacion" element={<Graduacion/>} />
+      <Route path="/otro" element={<Otro/>} />
+      <Route path="/bautizo" element={<Bautizo/>} />
+      <Route path="/quince" element={<Quince/>} />
       </Routes>
     </div>
   )
